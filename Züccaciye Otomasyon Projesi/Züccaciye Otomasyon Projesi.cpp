@@ -1,6 +1,14 @@
+/*  
+    2012721041 
+    Yusuf Kaya
+    Züccaciye Otomasyonu
+ */
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <time.h>
 
 using namespace std;
 
@@ -237,7 +245,7 @@ void kayitListele() {
         cout << "Urun ID: " << urun.urunID << endl;
         cout << "Urun Adi: " << urun.urunAdi << endl;
         cout << "Urun Fiyati: " << urun.urunFiyati << endl;
-        cout << "------------------------" << endl;
+        cout << "*************************" << endl;
     }
 
     dosya.close();
